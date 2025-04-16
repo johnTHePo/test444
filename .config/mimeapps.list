@@ -1,0 +1,10 @@
+[Added Associations]
+application/x-fishscript=org.gnome.gedit.desktop;
+text/css=org.gnome.gedit.desktop;
+text/plain=gedit.desktop;org.gnome.gedit.desktop;vim.desktop;vim-2.desktop;
+application/json=gedit.desktop;
+text/x-csrc=gedit.desktop;
+application/x-zerosize=org.gnome.gedit.desktop;vim.desktop;
+
+[Default Applications]
+text/plain=gedit.desktop;

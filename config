@@ -1,0 +1,47 @@
+{
+
+
+// Position Top
+
+    "layer": "top",
+    "margin-top" : 2,
+    "margin-bottom": 0,
+    
+    
+    
+    
+    
+    "layer": "top",
+    "margin-left": 0,
+    "margin-right": 0,
+    "height" : 16,
+    "spacing": 0,
+    
+    //Load Modules
+    "include": ["~/.config/waybar/modules.json"],
+    
+    
+    
+    "modules-left": [
+      "custom/appmenu",
+      "group/isbrannoe"
+      
+      ],
+    
+    
+    
+    "modules-center": [
+      "hyprland/workspaces"
+    ],
+    
+    
+    
+    "modules-right": [
+    "hyprland/language",
+    "pulseaudio",
+    "group/settings",
+    "clock",
+    "custom/exit"
+    ],
+ 
+}
